@@ -6,3 +6,16 @@ div,p,b,h1,h2,h3{
     padding: 0;
     margin:0;
 }
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  /* For Webkit browsers (Chrome, Safari) */
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
