@@ -16,7 +16,36 @@ const HomePage = () => {
           <p>A todo manager which help You in modern way</p>
         </div>
         <div className={homepagecss.sidebtn}>
-        <button>sidebtn</button>  
+          <button>sidebtn</button>
+        </div>
+      </div>
+
+      <div className={homepagecss.todoContainer}>
+        <div className={homepagecss.todoProgressBar}></div>
+        <div className={homepagecss.todoCategoriesContainer}>
+          {" "}
+          <div className={homepagecss.todoCategories}>
+            <div className={homepagecss.categoryTitle}>todays todo Styles</div>
+            <div className={homepagecss.categoryTitle}>yesterdays todo</div>
+            <div className={homepagecss.categoryTitle}>todays todo</div>
+            <div className={homepagecss.categoryTitle}>todays todo</div>
+            <div className={homepagecss.categoryTitle}>todays todo</div>
+          </div>
+        </div>
+
+        <div className={homepagecss.AlltodoList}>
+          <div className={homepagecss.todoCard}>first todo styles</div>
+          <div className={homepagecss.todoCard}>second todo</div>
+          <div className={homepagecss.todoCard}>first todo</div>
+          <div className={homepagecss.todoCard}>second todo</div>
+          <div className={homepagecss.todoCard}>first todo</div>
+          <div className={homepagecss.todoCard}>second todo</div>
+          <div className={homepagecss.todoCard}>first todo</div>
+          <div className={homepagecss.todoCard}>second todo</div>
+          <div className={homepagecss.todoCard}>first todo</div>
+          <div className={homepagecss.todoCard}>second todo</div>
+          <div className={homepagecss.todoCard}>first todo</div>
+          <div className={homepagecss.todoCard}>second todo</div>
         </div>
       </div>
     </div>
